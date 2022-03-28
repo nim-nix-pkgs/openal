@@ -11,7 +11,6 @@
   inputs.src-openal-master.ref   = "refs/heads/master";
   inputs.src-openal-master.owner = "treeform";
   inputs.src-openal-master.repo  = "openal";
-  inputs.src-openal-master.dir   = "";
   inputs.src-openal-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
